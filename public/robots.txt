@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://doorilestarigarment.netlify.app/sitemap.xml
