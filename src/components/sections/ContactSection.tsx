@@ -21,8 +21,7 @@ const ContactSection: React.FC = () => {
     formState: { errors, isSubmitting },
     reset
   } = useForm<FormData>();
-
-  // Ganti onSubmit buat kirim data ke Formspree
+  
   const onSubmit = async (data: FormData) => {
     try {
       const response = await fetch('https://formspree.io/f/mblovwal', {
@@ -154,14 +153,75 @@ const ContactSection: React.FC = () => {
             </form>
           </motion.div>
 
-          {/* Contact Information */}
+{/* Contact Information + Map */}
           <motion.div
             initial={{ opacity: 0, x: 30 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5, delay: 0.3 }}
             className="space-y-8"
           >
-            {/* ... bagian lain gak gue sentuh */}
+            <div>
+              <h3 className="text-xl font-semibold mb-4">Contact Information</h3>
+              <ul className="space-y-4">
+                <li className="flex items-start">
+                  <MapPin className="text-primary-600 dark:text-primary-400 mt-1 flex-shrink-0 mr-3" size={20} />
+                  <span className="text-gray-700 dark:text-gray-300">
+                    Jl. Intan I Kampung Curug, Tulang Kuning, Gunung Sindur Kabupaten Bogor, Jawa Barat, 16340 Indonesia 
+                  </span>
+                </li>
+                <li className="flex items-center">
+                  <Mail className="text-primary-600 dark:text-primary-400 flex-shrink-0 mr-3" size={20} />
+                  <a
+                    href="mailto:anjasprimary@gmail.com"
+                    className="text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
+                  >
+                    info@doorilestarigarment.com
+                  </a>
+                </li>
+                <li className="flex items-center">
+                  <Phone className="text-primary-600 dark:text-primary-400 flex-shrink-0 mr-3" size={20} />
+                  <a
+                    href="tel:+6285777222199"
+                    className="text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
+                  >
+                    +6285777222199
+                  </a>
+                </li>
+              </ul>
+            </div>
+            
+            {/* Info kontak bisa ditambah di sini */}
+ 
+              <div>
+              <h3 className="text-xl font-semibold mb-4">Business Hours</h3>
+              <ul className="space-y-2">
+                <li className="flex justify-between">
+                  <span className="text-gray-600 dark:text-gray-400">Monday - Friday</span>
+                  <span className="text-gray-700 dark:text-gray-300">7:30 AM - 17:00 PM</span>
+                </li>
+                <li className="flex justify-between">
+                  <span className="text-gray-600 dark:text-gray-400">Saturday</span>
+                  <span className="text-gray-700 dark:text-gray-300">7:30 AM - 16:00 PM</span>
+                </li>
+                <li className="flex justify-between">
+                  <span className="text-gray-600 dark:text-gray-400">Sunday</span>
+                  <span className="text-gray-700 dark:text-gray-300">Closed</span>
+                </li>
+              </ul>
+            </div>
+            {/* Simple map */}
+            <div className="mt-6 h-64 bg-gray-200 dark:bg-gray-700 rounded-lg overflow-hidden">
+              <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d63439.306323957135!2d106.70477578143901!3d-6.3995883490381456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sJl.%20Intan%20I%20Kampung%20Curug%2C%20Tulang%20Kuning%2C%20Gunung%20Sindur%20Kabupaten%20Bogor%2C%20Jawa%20Barat%2C%2016340%20Indonesia!5e0!3m2!1sid!2sid!4v1748620250987!5m2!1sid!2sid"
+                width="100%" 
+                height="100%" 
+                style={{ border: 0 }} 
+                allowFullScreen={false} 
+                loading="lazy" 
+                referrerPolicy="no-referrer-when-downgrade"
+                title="PT Doori Lestari Garment Location"
+              ></iframe>
+            </div>
           </motion.div>
         </div>
       </div>
