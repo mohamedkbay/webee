@@ -127,7 +127,7 @@ const Footer: React.FC = () => {
               <li className="flex items-center space-x-3">
                 <Mail className="text-primary-600 dark:text-primary-400 flex-shrink-0" size={18} />
                 <a
-                  href="mailto:info@doorilestarigarment.com"
+                  href="mailto:anjasprimary@gmail.com"
                   className="text-gray-600 hover:text-primary-600 dark:text-gray-400 dark:hover:text-primary-400 transition-colors"
                 >
                   info@doorilestarigarment.com
@@ -136,7 +136,7 @@ const Footer: React.FC = () => {
               <li className="flex items-center space-x-3">
                 <Phone className="text-primary-600 dark:text-primary-400 flex-shrink-0" size={18} />
                 <a
-                  href="tel:+62-21-555-7890"
+                  href="tel:+6285777222199"
                   className="text-gray-600 hover:text-primary-600 dark:text-gray-400 dark:hover:text-primary-400 transition-colors"
                 >
                   +6285777222199
