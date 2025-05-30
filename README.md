@@ -3,8 +3,6 @@
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/username/doorilestarigarment/actions)
 [![License](https://img.shields.io/badge/license-MIT-blue)](https://opensource.org/licenses/MIT)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![GitHub Issues](https://img.shields.io/github/issues/username/repo-name)](https://github.com/username/repo-name/issues)
-[![GitHub Stars](https://img.shields.io/github/stars/username/repo-name?style=social)](https://github.com/username/repo-name/stargazers)
 [![Instagram Follow](https://img.shields.io/badge/Instagram-Follow%20Me-orange?logo=instagram&style=social)](https://instagram.com/anjasmalik_)
 
 ---
