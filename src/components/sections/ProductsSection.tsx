@@ -8,8 +8,8 @@ const ProductsSection: React.FC = () => {
 
   const products = [
     {
-      image: 'https://images.pexels.com/photos/6311392/pexels-photo-6311392.jpeg?auto=compress&cs=tinysrgb&w=1600',
-      title: 'Minimal Look',
+      image: 'https://raw.githubusercontent.com/malik027/doorilestarigarment/refs/heads/main/images/IMG-20250530-WA0005.jpg?auto=compress&cs=tinysrgb&w=1600',
+      title: 'Production process',
       category: 'Shirts'
     },
     {
@@ -18,17 +18,17 @@ const ProductsSection: React.FC = () => {
       category: 'Hoodies'
     },
     {
-      image: 'https://images.pexels.com/photos/6046235/pexels-photo-6046235.jpeg?auto=compress&cs=tinysrgb&w=1600',
-      title: 'Urban Collection',
-      category: 'Jackets'
+      image: 'https://raw.githubusercontent.com/malik027/doorilestarigarment/refs/heads/main/images/IMG-20250530-WA0002.jpg?auto=compress&cs=tinysrgb&w=1600',
+      title: 'Packing Process',
+      category: 'Shirts'
     },
     {
-      image: 'https://images.pexels.com/photos/5699516/pexels-photo-5699516.jpeg?auto=compress&cs=tinysrgb&w=1600',
+      image: 'https://raw.githubusercontent.com/malik027/doorilestarigarment/refs/heads/main/images/IMG-20250530-WA0004.jpg?auto=compress&cs=tinysrgb&w=1600',
       title: 'Business Casual',
       category: 'Formal'
     },
     {
-      image: 'https://images.pexels.com/photos/4440535/pexels-photo-4440535.jpeg?auto=compress&cs=tinysrgb&w=1600',
+      image: 'https://raw.githubusercontent.com/malik027/doorilestarigarment/refs/heads/main/images/IMG-20250530-WA0001.jpg?auto=compress&cs=tinysrgb&w=1600',
       title: 'Summer Essentials',
       category: 'T-Shirts'
     },
