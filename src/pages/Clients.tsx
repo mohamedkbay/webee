@@ -46,9 +46,7 @@ const Clients: React.FC = () => {
           >
             <SectionTitle
               title="Klien Global Kami"
-              subtitle="Kami bangga menjadi mitra bagi brand-brand visioner dari berbagai negara. Di PT Doori Lestari Garment, kami percaya inovasi dan kolaborasi adalah kunci untuk tetap unggul di industri fashion yang terus berkembang. Dengan bekerja sama dengan brand yang mengutamakan keberlanjutan, teknologi, dan praktik etis, kami mewujudkan ide-ide kreatif menjadi produk pakaian berkualitas tinggi yang berdampak secara global. Kemitraan kami mencerminkan visi bersama untuk fashion yang bertanggung jawab dan pertumbuhan berkelanjutan.
-
-"
+              subtitle="Kami bangga menjadi mitra bagi brand-brand visioner dari berbagai negara. Di PT Doori Lestari Garment, kami percaya inovasi dan kolaborasi adalah kunci untuk tetap unggul di industri fashion yang terus berkembang. Dengan bekerja sama dengan brand yang mengutamakan keberlanjutan, teknologi, dan praktik etis, kami mewujudkan ide-ide kreatif menjadi produk pakaian berkualitas tinggi yang berdampak secara global. Kemitraan kami mencerminkan visi bersama untuk fashion yang bertanggung jawab dan pertumbuhan berkelanjutan."
               className="mb-0"
             />
           </motion.div>
@@ -113,7 +111,7 @@ const Clients: React.FC = () => {
       >
         <div className="h-64">
           <img
-            src="https://hypeabis.id/assets/content/20210910082827000000erigo04.JPEG?auto=compress&cs=tinysrgb&w=1600"
+            src="https://cdn.pixabay.com/photo/2016/07/17/20/19/t-shirt-1524677_1280.jpg?auto=compress&cs=tinysrgb&w=1600"
             alt="Client success story 1"
             className="w-full h-full object-cover"
           />
@@ -142,7 +140,7 @@ const Clients: React.FC = () => {
       >
         <div className="h-64">
           <img
-            src="https://images.pexels.com/photos/4483775/pexels-photo-4483775.jpeg?auto=compress&cs=tinysrgb&w=1600"
+            src="https://cdn.pixabay.com/photo/2016/11/22/19/08/hangers-1850082_1280.jpg?auto=compress&cs=tinysrgb&w=1600"
             alt="Client success story 2"
             className="w-full h-full object-cover"
           />
