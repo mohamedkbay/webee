@@ -14,7 +14,7 @@ const Footer: React.FC = () => {
               <h3 className="text-xl font-heading font-semibold">PT Doori Lestari</h3>
             </div>
             <p className="text-gray-600 dark:text-gray-400 mb-4">
-              Indonesian Garment Manufacturer with Global Standards. Producing high-quality fashion apparel ready for global export.
+              Produsen Garmen Indonesia dengan Standar Global. Memproduksi pakaian mode berkualitas tinggi yang siap diekspor ke seluruh dunia.
             </p>
             <div className="flex space-x-4 mb-4">
               <a

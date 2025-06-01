@@ -13,19 +13,19 @@ const About: React.FC = () => {
     {
       name: "Kwun Hun Ik",
       position: "Chief Executive Officer",
-      image: "https://images.pexels.com/photos/2381069/pexels-photo-2381069.jpeg?auto=compress&cs=tinysrgb&w=1600",
-      description: "With over 20 years of experience in the garment industry, Sarah leads our company's strategic vision and global expansion."
+      image: "https://raw.githubusercontent.com/malik027/doorilestarigarment/refs/heads/main/images/kwun%20hun%20lk.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      description: "With over 20 years of experience in the garment industry, Kwun leads our company's strategic vision and global expansion."
     },
     {
       name: "Joon Tae Kim",
       position: "Head of Production",
-      image: "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=1600",
-      description: "David oversees all manufacturing operations, ensuring the highest quality standards across our production lines."
+      image: "https://raw.githubusercontent.com/malik027/doorilestarigarment/refs/heads/main/images/joon%20tae%20kim.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      description: "Joon oversees all manufacturing operations, ensuring the highest quality standards across our production lines."
     },
     {
       name: "Linda Sanjaya",
       position: "Marketing Director",
-      image: "https://images.pexels.com/photos/2381068/pexels-photo-2381068.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      image: "https://raw.githubusercontent.com/malik027/doorilestarigarment/refs/heads/main/images/Linda.jpeg?auto=compress&cs=tinysrgb&w=1600",
       description: "Linda drives our global marketing strategy and client relationships, expanding our presence in international markets."
     }
   ];
@@ -68,7 +68,7 @@ const About: React.FC = () => {
               className="prose prose-lg max-w-none dark:prose-invert"
             >
               <p>
-                Didirikan pada tahun 2010, PT Doori Lestari Garment memulai perjalanan sebagai workshop kecil dengan hanya 20 penjahit terampil. Kini, kami telah berkembang menjadi fasilitas manufaktur skala penuh yang mempekerjakan lebih dari 200 tenaga kerja ahli dan memproduksi ribuan pakaian setiap bulan untuk ekspor ke berbagai negara.
+                Didirikan pada tahun 2012, PT Doori Lestari Garment memulai perjalanan sebagai workshop kecil dengan hanya 20 penjahit terampil. Kini, kami telah berkembang menjadi fasilitas manufaktur skala penuh yang mempekerjakan lebih dari 200 tenaga kerja ahli dan memproduksi ribuan pakaian setiap bulan untuk ekspor ke berbagai negara.
               </p>
               <p>
                 Pertumbuhan kami didasarkan pada kualitas, keandalan, dan hubungan kuat dengan para klien. Kami terus berinvestasi dalam peralatan modern, menyempurnakan proses produksi, dan meningkatkan kapasitas kami untuk memenuhi kebutuhan industri fashion yang terus berkembang.
