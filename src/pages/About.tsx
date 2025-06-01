@@ -17,7 +17,7 @@ const About: React.FC = () => {
       description: "With over 20 years of experience in the garment industry, Sarah leads our company's strategic vision and global expansion."
     },
     {
-      name: "David Tanaka",
+      name: "Joon Tae Kim",
       position: "Head of Production",
       image: "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=1600",
       description: "David oversees all manufacturing operations, ensuring the highest quality standards across our production lines."
@@ -41,8 +41,8 @@ const About: React.FC = () => {
             transition={{ duration: 0.5 }}
           >
             <SectionTitle
-              title="About PT Doori Lestari Garment"
-              subtitle="Learn about our journey, our people, and our commitment to quality."
+              title="Tentang PT Doori Lestari Garment"
+              subtitle="Kenali perjalanan kami, tim di balik produksi, dan komitmen kami terhadap kualitas terbaik dalam industri garmen."
               className="mb-0"
             />
           </motion.div>
@@ -56,8 +56,8 @@ const About: React.FC = () => {
       <section className="section bg-gray-50 dark:bg-gray-800">
         <div className="container-custom">
           <SectionTitle
-            title="Our Journey"
-            subtitle="From humble beginnings to becoming a trusted partner for global brands."
+            title="Perjalanan Kami"
+            subtitle="Dari awal yang sederhana hingga menjadi mitra terpercaya bagi brand global."
           />
 
           <div className="max-w-4xl mx-auto">
@@ -68,16 +68,16 @@ const About: React.FC = () => {
               className="prose prose-lg max-w-none dark:prose-invert"
             >
               <p>
-                Founded in 2010, PT Doori Lestari Garment began as a small workshop with just 20 skilled tailors. Today, we've grown into a full-scale manufacturing facility employing over 200 skilled workers and producing thousands of garments each month for export worldwide.
+                Didirikan pada tahun 2010, PT Doori Lestari Garment memulai perjalanan sebagai workshop kecil dengan hanya 20 penjahit terampil. Kini, kami telah berkembang menjadi fasilitas manufaktur skala penuh yang mempekerjakan lebih dari 200 tenaga kerja ahli dan memproduksi ribuan pakaian setiap bulan untuk ekspor ke berbagai negara.
               </p>
               <p>
-                Our growth has been built on a foundation of quality, reliability, and strong relationships with our clients. We've continuously invested in modern equipment, improved our processes, and expanded our capabilities to meet the evolving needs of the fashion industry.
+                Pertumbuhan kami didasarkan pada kualitas, keandalan, dan hubungan kuat dengan para klien. Kami terus berinvestasi dalam peralatan modern, menyempurnakan proses produksi, dan meningkatkan kapasitas kami untuk memenuhi kebutuhan industri fashion yang terus berkembang.
               </p>
               <p>
-                Throughout our journey, we've maintained our commitment to ethical manufacturing practices, fair labor standards, and sustainable production methods. We believe that responsible business practices are not just good ethics—they're good business.
+                Sepanjang perjalanan ini, kami selalu berkomitmen pada praktik produksi yang etis, standar ketenagakerjaan yang adil, dan metode produksi berkelanjutan. Kami percaya bahwa praktik bisnis yang bertanggung jawab bukan hanya etis—tetapi juga strategi bisnis yang baik.
               </p>
               <p>
-                As we look to the future, we remain dedicated to our founding principles while embracing innovation and new technologies that allow us to deliver even greater value to our clients.
+                Melangkah ke masa depan, kami tetap setia pada prinsip-prinsip awal kami, sembari terbuka terhadap inovasi dan teknologi baru yang memungkinkan kami memberikan nilai tambah yang lebih besar bagi klien.
               </p>
             </motion.div>
           </div>
@@ -88,8 +88,8 @@ const About: React.FC = () => {
       <section className="section bg-white dark:bg-gray-900">
         <div className="container-custom">
           <SectionTitle
-            title="Our Leadership Team"
-            subtitle="Meet the people driving our vision forward."
+            title="Tim Kepemimpinan Kami"
+            subtitle="Temui orang-orang yang mendorong visi misi kami ke depan."
           />
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

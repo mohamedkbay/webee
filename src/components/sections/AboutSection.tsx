@@ -11,18 +11,18 @@ const AboutSection: React.FC = () => {
   const values = [
     { 
       icon: <Target size={28} className="text-primary-600 dark:text-primary-400" />,
-      title: 'Mission',
-      description: 'To connect Indonesian craftsmanship with global fashion trends, delivering high-quality garments that meet international standards.'
+      title: 'Visi',
+      description: 'Menjadi mitra terpercaya dalam industri garmen yang mampu memberikan solusi produksi berkualitas tinggi, tepat waktu, dan efisien bagi brand lokal maupun internasional.'
     },
     { 
       icon: <EyeIcon size={28} className="text-primary-600 dark:text-primary-400" />,
-      title: 'Vision',
-      description: 'To become a leading garment manufacturer recognized globally for quality, innovation, and sustainable production practices.'
+      title: 'Misi',
+      description: 'Memberikan solusi produksi garmen yang profesional dan fleksibel kepada brand atau perusahaan retail, dengan mengutamakan ketepatan waktu, mutu produk, dan kepuasan mitra kerja dalam setiap proses kerja sama.'
     },
     { 
       icon: <Heart size={28} className="text-primary-600 dark:text-primary-400" />,
       title: 'Values',
-      description: 'Quality, Integrity, Innovation, Sustainability, and Respect for our people, partners, and the environment.'
+      description: 'Kami menjunjung tinggi integritas, kualitas, dan ketepatan waktu dalam setiap proses kerja, serta berkomitmen membangun kemitraan jangka panjang yang saling menguntungkan.'
     }
   ];
 
@@ -36,8 +36,8 @@ const AboutSection: React.FC = () => {
           variants={animation.variants}
         >
           <SectionTitle
-            title="Crafting Fashion with Passion"
-            subtitle="PT Doori Lestari Garment is a trusted garment manufacturer based in Indonesia, producing high-quality clothing for global export."
+            title="Mewujudkan Fashion dengan Dedikasi"
+            subtitle="PT Doori Lestari Garment adalah produsen garmen terpercaya yang berbasis di Indonesia, menyediakan pakaian berkualitas tinggi untuk kebutuhan ekspor global."
           />
         </motion.div>
 
@@ -49,7 +49,7 @@ const AboutSection: React.FC = () => {
             variants={animation.variants}
             className="text-gray-700 dark:text-gray-300 text-center"
           >
-            With a commitment to consistency and detail, we connect Indonesian craftsmanship with worldwide fashion trends. Our state-of-the-art facilities and skilled workforce ensure that every garment meets international quality standards.
+            Dengan konsistensi dan perhatian pada detail, kami menjembatani keterampilan tangan lokal Indonesia dengan tren mode dunia. Fasilitas modern dan tenaga kerja terampil kami memastikan setiap produk memenuhi standar kualitas internasional.
           </motion.p>
         </div>
 

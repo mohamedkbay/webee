@@ -57,8 +57,8 @@ const ContactSection: React.FC = () => {
           variants={animation.variants}
         >
           <SectionTitle
-            title="Let's Collaborate"
-            subtitle="Get in touch with us to discuss how we can bring your apparel ideas to life."
+            title="Ayo Berkolaborasi"
+            subtitle="Hubungi kami untuk berdiskusi tentang bagaimana kami dapat mewujudkan ide busana Anda."
           />
         </motion.div>
 

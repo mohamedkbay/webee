@@ -45,9 +45,10 @@ const Clients: React.FC = () => {
             transition={{ duration: 0.5 }}
           >
             <SectionTitle
-              title="Our Global Clients"
-              subtitle="We're proud to partner with forward-thinking brands from around the world.
-                        At PT Doori Lestari Garment, we believe that innovation and collaboration are key to staying ahead in the ever-evolving fashion industry. By working closely with brands that prioritize sustainability, technology, and ethical practices, we help turn bold ideas into high-quality garments that make an impact on a global scale. Our partnerships reflect a shared vision for responsible fashion and continuous growth."
+              title="Klien Global Kami"
+              subtitle="Kami bangga menjadi mitra bagi brand-brand visioner dari berbagai negara. Di PT Doori Lestari Garment, kami percaya inovasi dan kolaborasi adalah kunci untuk tetap unggul di industri fashion yang terus berkembang. Dengan bekerja sama dengan brand yang mengutamakan keberlanjutan, teknologi, dan praktik etis, kami mewujudkan ide-ide kreatif menjadi produk pakaian berkualitas tinggi yang berdampak secara global. Kemitraan kami mencerminkan visi bersama untuk fashion yang bertanggung jawab dan pertumbuhan berkelanjutan.
+
+"
               className="mb-0"
             />
           </motion.div>
@@ -61,8 +62,8 @@ const Clients: React.FC = () => {
       <section className="section bg-white dark:bg-gray-900">
         <div className="container-custom">
           <SectionTitle
-            title="Client Testimonials"
-            subtitle="Hear what our partners have to say about working with us."
+            title="Testimoni Klien"
+            subtitle="Dengarkan apa yang mitra kami katakan tentang bekerja dengan kami."
           />
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -98,8 +99,8 @@ const Clients: React.FC = () => {
 <section className="section bg-gray-50 dark:bg-gray-800">
   <div className="container-custom">
     <SectionTitle
-      title="Success Stories"
-      subtitle="Case studies showcasing our collaborative projects with global brands."
+      title="Kisah Sukses"
+      subtitle="Studi kasus yang memamerkan proyek kolaboratif kami dengan merek global."
     />
 
     <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
@@ -121,7 +122,7 @@ const Clients: React.FC = () => {
         <div className="p-6">
           <h3 className="text-xl font-semibold mb-2">UNIQLO – Premium Cotton Shirt Collection</h3>
           <p className="text-gray-600 dark:text-gray-400 mb-4">
-            PT Doori Lestari Garment is trusted to produce UNIQLO's premium cotton shirt collection for the Southeast Asian market. This project requires high sewing quality, international standards, and high production time efficiency.
+            PT Doori Lestari Garment dipercaya untuk memproduksi koleksi kemeja katun premium UNIQLO untuk pasar Asia Tenggara. Proyek ini membutuhkan kualitas jahitan yang tinggi, standar internasional, dan efisiensi waktu produksi yang tinggi.
           </p>
           <div className="flex flex-wrap gap-2">
             <span className="bg-primary-100 dark:bg-primary-900 text-primary-800 dark:text-primary-300 text-xs px-2 py-1 rounded">UNIQLO </span>
@@ -150,7 +151,7 @@ const Clients: React.FC = () => {
         <div className="p-6">
           <h3 className="text-xl font-semibold mb-2">H&M – Sustainable Fashion Line</h3>
           <p className="text-gray-600 dark:text-gray-400 mb-4">
-            PT Doori Lestari Garment is working on an eco-friendly clothing project for H&M, using recycled materials and natural dyes. This collaboration is part of H&M's commitment to sustainable fashion production.
+            PT Doori Lestari Garment tengah menggarap proyek busana ramah lingkungan untuk H&M, menggunakan bahan daur ulang dan pewarna alami. Kolaborasi ini merupakan bagian dari komitmen H&M terhadap produksi mode berkelanjutan.
           </p>
           <div className="flex flex-wrap gap-2">
             <span className="bg-primary-100 dark:bg-primary-900 text-primary-800 dark:text-primary-300 text-xs px-2 py-1 rounded">HandM </span>

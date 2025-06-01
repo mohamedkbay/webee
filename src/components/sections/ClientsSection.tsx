@@ -33,9 +33,8 @@ const ClientsSection: React.FC = () => {
           variants={animation.variants}
         >
           <SectionTitle
-            title="Trusted by Global Brands"
-            subtitle="Our garments are exported to clients in Asia, Europe, and North America.
-                      With a proven track record of quality and reliability, PT Doori Lestari Garment has become a trusted manufacturing partner for global fashion brands. Our commitment to precision, on-time delivery, and sustainable production practices allows us to consistently meet the standards of leading brands across international markets. From casual wear to premium collections, our craftsmanship reflects excellence in every stitch."
+            title="Dipercaya oleh Brand-Brand Global"
+            subtitle="Produk kami diekspor ke klien di Asia, Eropa, dan Amerika Utara. Dengan rekam jejak kualitas dan keandalan yang terbukti, PT Doori Lestari Garment telah menjadi mitra manufaktur terpercaya bagi berbagai brand fashion internasional. Komitmen kami terhadap ketelitian, pengiriman tepat waktu, dan praktik produksi yang berkelanjutan membuat kami selalu memenuhi standar tinggi dari brand-brand terkemuka di pasar global. Dari pakaian kasual hingga koleksi premium, keahlian kami tercermin dalam setiap jahitan."
           />
         </motion.div>
 

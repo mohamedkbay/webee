@@ -23,8 +23,8 @@ const Services: React.FC = () => {
             transition={{ duration: 0.5 }}
           >
             <SectionTitle
-              title="Our Services"
-              subtitle="Comprehensive garment manufacturing services tailored to your needs."
+              title="Layanan Kami"
+              subtitle="Layanan manufaktur garmen komprehensif yang disesuaikan dengan kebutuhan anda."
               className="mb-0"
             />
           </motion.div>
@@ -38,8 +38,8 @@ const Services: React.FC = () => {
       <section className="section bg-white dark:bg-gray-900">
         <div className="container-custom">
           <SectionTitle
-            title="Our Manufacturing Process"
-            subtitle="From concept to finished product, we handle every step with precision and care."
+            title="Proses Produksi Kami"
+            subtitle="Dari konsep hingga produk jadi, kami menangani setiap tahap dengan presisi dan kehati-hatian."
           />
 
           <div className="relative">
@@ -55,9 +55,9 @@ const Services: React.FC = () => {
                 className="md:flex items-center"
               >
                 <div className="md:w-1/2 md:pr-12 md:text-right">
-                  <h3 className="text-xl font-semibold mb-2">1. Design & Pattern Making</h3>
+                  <h3 className="text-xl font-semibold mb-2">1. Desain & Pembuatan Pola</h3>
                   <p className="text-gray-600 dark:text-gray-400">
-                    We collaborate with your design team or provide design services to create patterns that align with your vision.
+                    Kami bekerja sama dengan tim desain Anda atau menyediakan layanan desain untuk menciptakan pola yang sesuai dengan visi Anda.
                   </p>
                 </div>
                 <div className="hidden md:block absolute left-1/2 transform -translate-x-1/2 w-8 h-8 rounded-full bg-primary-500 border-4 border-white dark:border-gray-900"></div>
@@ -74,9 +74,9 @@ const Services: React.FC = () => {
                 <div className="md:w-1/2 md:pr-12 md:text-right"></div>
                 <div className="hidden md:block absolute left-1/2 transform -translate-x-1/2 w-8 h-8 rounded-full bg-primary-500 border-4 border-white dark:border-gray-900"></div>
                 <div className="md:w-1/2 md:pl-12 mt-4 md:mt-0">
-                  <h3 className="text-xl font-semibold mb-2">2. Sampling & Prototyping</h3>
+                  <h3 className="text-xl font-semibold mb-2">2. Pembuatan Sampel & Prototipe</h3>
                   <p className="text-gray-600 dark:text-gray-400">
-                    We create samples for approval before proceeding to mass production, ensuring your specifications are met.
+                    Kami membuat sampel sebagai bahan persetujuan sebelum produksi massal, memastikan spesifikasi terpenuhi.
                   </p>
                 </div>
               </motion.div>
@@ -89,9 +89,9 @@ const Services: React.FC = () => {
                 className="md:flex items-center"
               >
                 <div className="md:w-1/2 md:pr-12 md:text-right">
-                  <h3 className="text-xl font-semibold mb-2">3. Fabric Sourcing & Cutting</h3>
+                  <h3 className="text-xl font-semibold mb-2">3. Pengadaan & Pemotongan Kain</h3>
                   <p className="text-gray-600 dark:text-gray-400">
-                    We source high-quality fabrics and precisely cut them according to the approved patterns.
+                    Kami menggunakan kain berkualitas tinggi dan memotongnya secara presisi sesuai pola yang telah disetujui.
                   </p>
                 </div>
                 <div className="hidden md:block absolute left-1/2 transform -translate-x-1/2 w-8 h-8 rounded-full bg-primary-500 border-4 border-white dark:border-gray-900"></div>
@@ -108,9 +108,9 @@ const Services: React.FC = () => {
                 <div className="md:w-1/2 md:pr-12 md:text-right"></div>
                 <div className="hidden md:block absolute left-1/2 transform -translate-x-1/2 w-8 h-8 rounded-full bg-primary-500 border-4 border-white dark:border-gray-900"></div>
                 <div className="md:w-1/2 md:pl-12 mt-4 md:mt-0">
-                  <h3 className="text-xl font-semibold mb-2">4. Sewing & Assembly</h3>
+                  <h3 className="text-xl font-semibold mb-2">4. Penjahitan & Perakitan</h3>
                   <p className="text-gray-600 dark:text-gray-400">
-                    Our skilled tailors assemble the garments with precision and attention to detail.
+                    Tim penjahit kami merakit pakaian dengan ketelitian dan perhatian terhadap detail.
                   </p>
                 </div>
               </motion.div>
@@ -123,9 +123,9 @@ const Services: React.FC = () => {
                 className="md:flex items-center"
               >
                 <div className="md:w-1/2 md:pr-12 md:text-right">
-                  <h3 className="text-xl font-semibold mb-2">5. Quality Control</h3>
+                  <h3 className="text-xl font-semibold mb-2">5. Kontrol Kualitas</h3>
                   <p className="text-gray-600 dark:text-gray-400">
-                    Every garment undergoes rigorous quality checks to ensure it meets our high standards.
+                    Setiap produk melewati pemeriksaan kualitas berlapis untuk memastikan standar tinggi kami terpenuhi.
                   </p>
                 </div>
                 <div className="hidden md:block absolute left-1/2 transform -translate-x-1/2 w-8 h-8 rounded-full bg-primary-500 border-4 border-white dark:border-gray-900"></div>
@@ -142,9 +142,9 @@ const Services: React.FC = () => {
                 <div className="md:w-1/2 md:pr-12 md:text-right"></div>
                 <div className="hidden md:block absolute left-1/2 transform -translate-x-1/2 w-8 h-8 rounded-full bg-primary-500 border-4 border-white dark:border-gray-900"></div>
                 <div className="md:w-1/2 md:pl-12 mt-4 md:mt-0">
-                  <h3 className="text-xl font-semibold mb-2">6. Packaging & Shipping</h3>
+                  <h3 className="text-xl font-semibold mb-2">6. Pengemasan & Pengiriman</h3>
                   <p className="text-gray-600 dark:text-gray-400">
-                    We carefully package the finished products and manage all export logistics to ensure safe delivery.
+                    Produk yang telah selesai dikemas dengan aman dan didistribusikan dengan pengaturan logistik yang efisien.
                   </p>
                 </div>
               </motion.div>

@@ -23,8 +23,8 @@ const Products: React.FC = () => {
             transition={{ duration: 0.5 }}
           >
             <SectionTitle
-              title="Our Product Portfolio"
-              subtitle="Explore our diverse range of high-quality garments crafted for global brands."
+              title="Portofolio Produk Kami"
+              subtitle="Jelajahi beragam koleksi pakaian berkualitas tinggi yang dibuat untuk merek global."
               className="mb-0"
             />
           </motion.div>
@@ -38,8 +38,8 @@ const Products: React.FC = () => {
       <section className="section bg-gray-50 dark:bg-gray-800">
         <div className="container-custom">
           <SectionTitle
-            title="Product Categories"
-            subtitle="We specialize in various clothing categories to meet diverse market demands."
+            title="Kategori Produk"
+            subtitle="Kami mengkhususkan diri dalam berbagai kategori pakaian untuk memenuhi permintaan pasar yang beragam."
           />
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -68,8 +68,8 @@ const Products: React.FC = () => {
       <section className="section bg-white dark:bg-gray-900">
         <div className="container-custom">
           <SectionTitle
-            title="Our Production Capacity"
-            subtitle="We have the capability to handle both small batch orders and large-scale production."
+            title="Kapasitas Produksi Kami"
+            subtitle="Kami mempunyai kemampuan untuk menangani pesanan dalam jumlah kecil dan produksi berskala besar."
           />
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

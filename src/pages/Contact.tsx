@@ -23,8 +23,8 @@ const Contact: React.FC = () => {
             transition={{ duration: 0.5 }}
           >
             <SectionTitle
-              title="Contact Us"
-              subtitle="Let's discuss how we can bring your apparel ideas to life."
+              title="Hubungi Kami"
+              subtitle="Mari diskusikan bagaimana kami dapat mewujudkan ide busana Anda."
               className="mb-0"
             />
           </motion.div>
@@ -38,31 +38,31 @@ const Contact: React.FC = () => {
       <section className="section bg-gray-50 dark:bg-gray-800">
         <div className="container-custom">
           <SectionTitle
-            title="Frequently Asked Questions"
-            subtitle="Find answers to common questions about our services."
+            title="Pertanyaan yang Sering Diajukan"
+            subtitle="Temukan jawaban atas pertanyaan umum tentang layanan kami."
           />
 
           <div className="max-w-3xl mx-auto space-y-6">
             {[
               {
-                question: "What is your minimum order quantity (MOQ)?",
-                answer: "Our standard MOQ is 500 units per style. However, we may be able to accommodate smaller orders depending on the complexity of the design and our current production schedule."
+                question: "Berapa kapasitas produksi PT Doori Lestari Garment?",
+                answer: "Kami mampu menangani produksi dalam jumlah besar sesuai kebutuhan klien, mulai dari ribuan hingga puluhan ribu potong pakaian per batch."
               },
               {
-                question: "How long does production typically take?",
-                answer: "Production timelines vary based on order size, complexity, and current capacity. On average, production takes 4-6 weeks after design approval and sample confirmation."
+                question: "Jenis pakaian apa saja yang bisa diproduksi?",
+                answer: "Kami memproduksi berbagai jenis pakaian seperti baju, celana, jaket, dan pakaian siap pakai lainnya untuk pria dan wanita."
               },
               {
-                question: "Can you help with design and pattern making?",
-                answer: "Yes, we offer full design and pattern-making services. Our experienced design team can help bring your concepts to life or refine existing designs to optimize for production."
+                question: "Apakah PT Doori Lestari Garment menerima pesanan custom atau spesifik?",
+                answer: "Ya, kami menerima pesanan sesuai desain, bahan, dan spesifikasi yang diberikan oleh klien."
               },
               {
-                question: "Do you handle shipping and logistics?",
-                answer: "Yes, we provide complete export handling services, including documentation, packaging, and coordination with shipping partners to ensure your products reach their destination safely and on time."
+                question: "Bagaimana proses kontrol kualitas di PT Doori Lestari Garment?",
+                answer: "Setiap tahap produksi melewati pemeriksaan kualitas yang ketat untuk memastikan produk sesuai standar dan bebas cacat."
               },
               {
-                question: "What quality control processes do you have in place?",
-                answer: "We implement a comprehensive quality control system that includes fabric inspection, in-process quality checks, and final product inspection to ensure every garment meets our high standards."
+                question: "Berapa lama waktu produksi biasanya?",
+                answer: "Waktu produksi tergantung pada jumlah dan kompleksitas pesanan, namun kami selalu berusaha memenuhi jadwal yang disepakati dengan klien."
               }
             ].map((faq, index) => (
               <motion.div

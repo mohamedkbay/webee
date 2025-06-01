@@ -8,34 +8,34 @@ const ProductsSection: React.FC = () => {
 
   const products = [
     {
-      image: 'https://raw.githubusercontent.com/malik027/doorilestarigarment/refs/heads/main/images/IMG-20250530-WA0005.jpg?auto=compress&cs=tinysrgb&w=1600',
-      title: 'Production process',
+      image: 'https://raw.githubusercontent.com/malik027/doorilestarigarment/refs/heads/main/images/image04.jpg?auto=compress&cs=tinysrgb&w=1600',
+      title: 'Proses Produksi Awal',
       category: 'Shirts'
     },
     {
-      image: 'https://images.pexels.com/photos/6311384/pexels-photo-6311384.jpeg?auto=compress&cs=tinysrgb&w=1600',
-      title: 'Streetwear Series',
-      category: 'Hoodies'
-    },
-    {
-      image: 'https://raw.githubusercontent.com/malik027/doorilestarigarment/refs/heads/main/images/IMG-20250530-WA0002.jpg?auto=compress&cs=tinysrgb&w=1600',
-      title: 'Packing Process',
+      image: 'https://raw.githubusercontent.com/malik027/doorilestarigarment/refs/heads/main/images/image06.jpg?auto=compress&cs=tinysrgb&w=1600',
+      title: 'Pemeriksaan & Penyortiran',
       category: 'Shirts'
     },
     {
-      image: 'https://raw.githubusercontent.com/malik027/doorilestarigarment/refs/heads/main/images/IMG-20250530-WA0004.jpg?auto=compress&cs=tinysrgb&w=1600',
-      title: 'Business Casual',
-      category: 'Formal'
+      image: 'https://raw.githubusercontent.com/malik027/doorilestarigarment/refs/heads/main/images/image08.jpg?auto=compress&cs=tinysrgb&w=1600',
+      title: 'Penyusunan Produk',
+      category: 'Shirts'
     },
     {
-      image: 'https://raw.githubusercontent.com/malik027/doorilestarigarment/refs/heads/main/images/IMG-20250530-WA0001.jpg?auto=compress&cs=tinysrgb&w=1600',
-      title: 'Summer Essentials',
-      category: 'T-Shirts'
+      image: 'https://raw.githubusercontent.com/malik027/doorilestarigarment/refs/heads/main/images/image02.jpg?auto=compress&cs=tinysrgb&w=1600',
+      title: 'Pengemasan Produk',
+      category: 'Shirts'
     },
     {
-      image: 'https://images.pexels.com/photos/1043474/pexels-photo-1043474.jpeg?auto=compress&cs=tinysrgb&w=1600',
-      title: 'Premium Denim',
-      category: 'Pants'
+      image: 'https://raw.githubusercontent.com/malik027/doorilestarigarment/refs/heads/main/images/image14.jpg?auto=compress&cs=tinysrgb&w=1600',
+      title: 'Siap Kirin Ke Klien',
+      category: 'Shirts'
+    },
+    {
+      image: 'https://raw.githubusercontent.com/malik027/doorilestarigarment/refs/heads/main/images/image12.jpg?auto=compress&cs=tinysrgb&w=1600',
+      title: 'Produk Jadi Celana',
+      category: 'Jeans'
     }
   ];
 
@@ -43,8 +43,8 @@ const ProductsSection: React.FC = () => {
     <section className="section bg-white dark:bg-gray-900">
       <div className="container-custom">
         <SectionTitle
-          title="Our Apparel Line"
-          subtitle="Explore a range of sample garments we've produced for our clients around the world."
+          title="Lini Pakaian Kami"
+          subtitle="Jelajahi berbagai contoh pakaian yang telah kami produksi untuk klien kami di seluruh dunia."
         />
 
         <motion.div

@@ -10,33 +10,33 @@ const ServicesSection: React.FC = () => {
   const services = [
     {
       icon: <Palette size={32} className="text-primary-600 dark:text-primary-400" />,
-      title: 'Garment Design & Development',
-      description: 'Expert design services and pattern development to bring your concepts to life.'
+      title: 'Desain & Pengembangan Garmen',
+      description: 'Layanan desain profesional dan pengembangan pola untuk mewujudkan konsep Anda menjadi produk nyata.'
     },
     {
       icon: <Box size={32} className="text-primary-600 dark:text-primary-400" />,
-      title: 'Fabric Sourcing',
-      description: 'Access to premium fabrics and materials from trusted suppliers worldwide.'
+      title: ' Pengadaan Kain',
+      description: 'Akses ke kain dan bahan premium dari pemasok terpercaya, lokal maupun internasional.'
     },
     {
       icon: <Shirt size={32} className="text-primary-600 dark:text-primary-400" />,
-      title: 'Garment Manufacturing',
-      description: 'Full-service manufacturing from pattern-making to mass production of shirts, pants, hoodies, and jackets.'
+      title: 'Produksi Garmen',
+      description: 'Produksi penuh mulai dari pembuatan pola hingga pembuatan massal kaos, celana, hoodie, dan jaket.'
     },
     {
       icon: <Scissors size={32} className="text-primary-600 dark:text-primary-400" />,
-      title: 'Button Attachment & Finishing',
-      description: 'Precise button attachment, embroidery, screen printing, and final detailing to perfect every garment.'
+      title: 'Kancing & Finishing',
+      description: 'Pemasangan kancing yang presisi, bordir, sablon, dan detail akhir untuk menyempurnakan setiap produk.'
     },
     {
       icon: <CheckCircle size={32} className="text-primary-600 dark:text-primary-400" />,
-      title: 'Quality Control',
-      description: 'Rigorous multi-stage quality checks to ensure every piece meets international standards.'
+      title: 'Kontrol Kualitas',
+      description: 'Pemeriksaan kualitas bertahap dan ketat untuk memastikan setiap produk memenuhi standar industri.'
     },
     {
       icon: <Ship size={32} className="text-primary-600 dark:text-primary-400" />,
-      title: 'Logistics & Supply Chain',
-      description: 'Complete export services including documentation, packaging, and logistics for global shipping.'
+      title: ' Logistik & Rantai Pasok',
+      description: 'Layanan ekspor lengkap termasuk dokumentasi, pengemasan, dan pengiriman ke seluruh dunia.'
     }
   ];
 
@@ -44,8 +44,8 @@ const ServicesSection: React.FC = () => {
     <section className="section bg-gray-50 dark:bg-gray-800">
       <div className="container-custom">
         <SectionTitle
-          title="Our Services"
-          subtitle="We offer comprehensive garment manufacturing services from design to delivery."
+          title="Layanan Kami"
+          subtitle="Kami menyediakan layanan manufaktur garmen lengkap dari desain hingga pengiriman."
         />
 
         <motion.div
