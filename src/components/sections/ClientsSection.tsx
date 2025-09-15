@@ -18,7 +18,7 @@ const ClientsSection: React.FC = () => {
   ];
 
   const regions = [
-    { name: 'Tripoli', countries: ['sahab libya ', ' ', '', '', "", ""] },
+    { name: 'Tripoli', countries: [' ', ' ', '', '', "", ""] },
     { name: 'Misrata', countries: ['', '', '', ''] },
     { name: 'Benghazi', countries: ['', ''] },
   ];

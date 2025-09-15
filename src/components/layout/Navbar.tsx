@@ -59,7 +59,7 @@ const Navbar: React.FC = () => {
         {/* Logo */}
         <Link
           to="/"
-          className="flex items-center space-x-2 text-primary-600 dark:text-primary-400"
+          className="flex items-center space-x-2 text-blue-800 dark:text-slate-50"
         >
           {/* <Shirt size={28} /> */}
           <span className="font-heading font-bold text-xl hidden sm:block">
