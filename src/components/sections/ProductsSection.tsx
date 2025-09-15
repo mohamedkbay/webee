@@ -9,33 +9,33 @@ const ProductsSection: React.FC = () => {
   const products = [
     {
       image: 'https://burst.shopifycdn.com/photos/tech-meeting-flatlay.jpg?width=925&format=pjpg&exif=0&iptc=0',
-      title: 'Proses Produksi Awal',
-      category: 'Shirts'
+      title: 'IT Support & Maintenance',
+      category: 'Support'
     },
     {
       image: 'https://burst.shopifycdn.com/photos/network-server.jpg?width=925&format=pjpg&exif=0&iptc=0',
-      title: 'Pemeriksaan & Penyortiran',
-      category: 'Shirts'
+      title: 'NETWORK & INFRASTRUCTURE',
+      category: 'Connectivity'
     },
     {
       image: 'https://burst.shopifycdn.com/photos/woman-hands-tech-developer-laptop.jpg?width=925&format=pjpg&exif=0&iptc=0',
-      title: 'Penyusunan Produk',
-      category: 'Shirts'
+      title: 'Management & Monitoring',
+      category: 'Management'
     },
     {
       image: 'https://burst.shopifycdn.com/photos/software-programming-plan.jpg?width=373&format=pjpg&exif=0&iptc=0',
-      title: 'Pengemasan Produk',
-      category: 'Shirts'
+      title: 'Improve on Ideas',
+      category: 'Learning'
     },
     {
       image: 'https://burst.shopifycdn.com/photos/business-owner-working-on-online-store.jpg?width=373&format=pjpg&exif=0&iptc=0',
-      title: 'Siap Kirin Ke Klien',
-      category: 'Shirts'
+      title: 'development products',
+      category: 'development'
     },
     {
       image: 'https://burst.shopifycdn.com/photos/office-computer-screen.jpg?width=373&format=pjpg&exif=0&iptc=0',
-      title: 'Produk Jadi Celana',
-      category: 'Jeans'
+      title: 'working with clients',
+      category: 'Collaboration'
     }
   ];
 
