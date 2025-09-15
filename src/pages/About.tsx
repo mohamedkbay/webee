@@ -6,7 +6,7 @@ import SectionTitle from '../components/ui/SectionTitle';
 const About: React.FC = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
-    document.title = "About Us | PT Doori Lestari Garment";
+    document.title = "About Us | Tech Shield- درع التقنية";
   }, []);
 
   const teamMembers = [
@@ -41,8 +41,8 @@ const About: React.FC = () => {
             transition={{ duration: 0.5 }}
           >
             <SectionTitle
-              title="Tentang PT Doori Lestari Garment"
-              subtitle="Kenali perjalanan kami, tim di balik produksi, dan komitmen kami terhadap kualitas terbaik dalam industri garmen."
+              title="Who We Are"
+              subtitle="Discover our journey, the team behind the production, and our commitment to the highest quality in the garment industry."
               className="mb-0"
             />
           </motion.div>
@@ -56,8 +56,8 @@ const About: React.FC = () => {
       <section className="section bg-gray-50 dark:bg-gray-800">
         <div className="container-custom">
           <SectionTitle
-            title="Perjalanan Kami"
-            subtitle="Dari awal yang sederhana hingga menjadi mitra terpercaya bagi brand global."
+            title="Our Journey"
+            subtitle="From humble beginnings to becoming a trusted partner for global brands."
           />
 
           <div className="max-w-4xl mx-auto">
@@ -65,59 +65,19 @@ const About: React.FC = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.2 }}
-              className="prose prose-lg max-w-none dark:prose-invert"
+              className="Our Journey"
             >
               <p>
-                Didirikan pada tahun 2012, PT Doori Lestari Garment memulai perjalanan sebagai workshop kecil dengan hanya 20 penjahit terampil. Kini, kami telah berkembang menjadi fasilitas manufaktur skala penuh yang mempekerjakan lebih dari 200 tenaga kerja ahli dan memproduksi ribuan pakaian setiap bulan untuk ekspor ke berbagai negara.
-              </p>
-              <p>
-                Pertumbuhan kami didasarkan pada kualitas, keandalan, dan hubungan kuat dengan para klien. Kami terus berinvestasi dalam peralatan modern, menyempurnakan proses produksi, dan meningkatkan kapasitas kami untuk memenuhi kebutuhan industri fashion yang terus berkembang.
-              </p>
-              <p>
-                Sepanjang perjalanan ini, kami selalu berkomitmen pada praktik produksi yang etis, standar ketenagakerjaan yang adil, dan metode produksi berkelanjutan. Kami percaya bahwa praktik bisnis yang bertanggung jawab bukan hanya etis—tetapi juga strategi bisnis yang baik.
-              </p>
-              <p>
-                Melangkah ke masa depan, kami tetap setia pada prinsip-prinsip awal kami, sembari terbuka terhadap inovasi dan teknologi baru yang memungkinkan kami memberikan nilai tambah yang lebih besar bagi klien.
+                Tech Shield was founded with a clear vision: to provide reliable IT support, software solutions, and training that empower businesses and individuals in Libya. From the very beginning, our goal has been to make technology simple, secure, and effective for everyone
+                Over time, we have grown into a trusted partner for organizations seeking dependable IT services, innovative software, and professional training.
               </p>
             </motion.div>
           </div>
         </div>
       </section>
 
-      {/* Team/Leadership Section */}
-      <section className="section bg-white dark:bg-gray-900">
-        <div className="container-custom">
-          <SectionTitle
-            title="Tim Kepemimpinan Kami"
-            subtitle="Temui orang-orang yang mendorong visi misi kami ke depan."
-          />
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {teamMembers.map((member, index) => (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: 0.1 * index }}
-                className="bg-gray-50 dark:bg-gray-800 rounded-lg overflow-hidden shadow-sm"
-              >
-                <div className="h-64 relative">
-                  <img 
-                    src={member.image} 
-                    alt={member.name} 
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-                <div className="p-6">
-                  <h3 className="text-xl font-semibold mb-1">{member.name}</h3>
-                  <p className="text-primary-600 dark:text-primary-400 mb-3">{member.position}</p>
-                  <p className="text-gray-600 dark:text-gray-400">{member.description}</p>
-                </div>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
+    
+      
     </div>
   );
 };

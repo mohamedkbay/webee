@@ -9,18 +9,18 @@ const ClientsSection: React.FC = () => {
 
   // Using dummy logos via background color blocks for placeholder purposes
   const clients = [
-    { name: 'Uniqlo ', color: 'bg-gray-200 dark:bg-gray-700' },
-    { name: 'H&M', color: 'bg-gray-200 dark:bg-gray-700' },
-    { name: 'Zara ', color: 'bg-gray-200 dark:bg-gray-700' },
-    { name: 'Mango ', color: 'bg-gray-200 dark:bg-gray-700' },
-    { name: 'Marks & Spencer', color: 'bg-gray-200 dark:bg-gray-700' },
-    { name: 'Cotton On', color: 'bg-gray-200 dark:bg-gray-700' },
+    { name: 'Warchapro ', color: 'bg-gray-200 dark:bg-gray-700' },
+    { name: 'Cisco', color: 'bg-gray-200 dark:bg-gray-700' },
+    { name: 'Netgear ', color: 'bg-gray-200 dark:bg-gray-700' },
+    { name: 'Ubiquiti ', color: 'bg-gray-200 dark:bg-gray-700' },
+    { name: 'Tplink', color: 'bg-gray-200 dark:bg-gray-700' },
+    { name: 'Fortinet', color: 'bg-gray-200 dark:bg-gray-700' },
   ];
 
   const regions = [
-    { name: 'Asia', countries: ['Japan', 'South Korea', 'Singapore', 'Malaysia', "Thailand", "Vietnam"] },
-    { name: 'Europe', countries: ['Germany', 'France', 'United Kingdom', 'Italy'] },
-    { name: 'North America', countries: ['United States', 'Canada'] },
+    { name: 'Tripoli', countries: ['sahab libya ', ' ', '', '', "", ""] },
+    { name: 'Misrata', countries: ['', '', '', ''] },
+    { name: 'Benghazi', countries: ['', ''] },
   ];
 
   return (
@@ -33,8 +33,8 @@ const ClientsSection: React.FC = () => {
           variants={animation.variants}
         >
           <SectionTitle
-            title="Dipercaya oleh Brand-Brand Global"
-            subtitle="Produk kami diekspor ke klien di Asia, Eropa, dan Amerika Utara. Dengan rekam jejak kualitas dan keandalan yang terbukti, PT Doori Lestari Garment telah menjadi mitra manufaktur terpercaya bagi berbagai brand fashion internasional. Komitmen kami terhadap ketelitian, pengiriman tepat waktu, dan praktik produksi yang berkelanjutan membuat kami selalu memenuhi standar tinggi dari brand-brand terkemuka di pasar global. Dari pakaian kasual hingga koleksi premium, keahlian kami tercermin dalam setiap jahitan."
+            title="Trusted by Global Brands"
+            subtitle="Our services are trusted by clients in Asia, Europe, and North America. With a proven track record of quality and reliability, Tech Shield has become a trusted technology partner for industries worldwide. Our commitment to data security, system performance, and sustainable infrastructure ensures we always meet the highest global standards. From software solutions to enterprise networks, our expertise is reflected in every implementation."
           />
         </motion.div>
 

@@ -25,7 +25,7 @@ const HeroSection: React.FC = () => {
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{ 
-          backgroundImage: "url('https://images.pexels.com/photos/7078666/pexels-photo-7078666.jpeg?auto=compress&cs=tinysrgb&w=1600')",
+          backgroundImage: "url('https://upload.wikimedia.org/wikipedia/commons/8/8d/Tripoli_at_night.jpg')",
           transform: `translateY(${scrollY * 0.4}px)`,
           backgroundPositionY: '30%'
         }}
@@ -47,7 +47,7 @@ const HeroSection: React.FC = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
           >
-            Indonesian Garment Manufacturer with Global Standards
+            Global Technology Solutions with Trusted Standards  
           </motion.h1>
           
           <motion.p 
@@ -56,7 +56,7 @@ const HeroSection: React.FC = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.4 }}
           >
-            We produce high-quality fashion apparel ready for global export.
+            We provide secure programming solutions, reliable network services, and scalable IT infrastructure for businesses worldwide..
           </motion.p>
           
           <motion.div 

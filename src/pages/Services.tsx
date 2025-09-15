@@ -9,7 +9,7 @@ const Services: React.FC = () => {
     window.scrollTo(0, 0);
     
     // Update document title
-    document.title = "Services | PT Doori Lestari Garment";
+    document.title = "Services | Tech Shield ";
   }, []);
 
   return (
@@ -23,8 +23,8 @@ const Services: React.FC = () => {
             transition={{ duration: 0.5 }}
           >
             <SectionTitle
-              title="Layanan Kami"
-              subtitle="Layanan manufaktur garmen komprehensif yang disesuaikan dengan kebutuhan anda."
+              title="Our Services"
+              subtitle="We provide comprehensive IT and networking solutions tailored to your business needs."
               className="mb-0"
             />
           </motion.div>
@@ -38,8 +38,8 @@ const Services: React.FC = () => {
       <section className="section bg-white dark:bg-gray-900">
         <div className="container-custom">
           <SectionTitle
-            title="Proses Produksi Kami"
-            subtitle="Dari konsep hingga produk jadi, kami menangani setiap tahap dengan presisi dan kehati-hatian."
+            title="Process"
+            subtitle="From planning to implementation, we handle every step with precision and expertise."
           />
 
           <div className="relative">
@@ -55,9 +55,9 @@ const Services: React.FC = () => {
                 className="md:flex items-center"
               >
                 <div className="md:w-1/2 md:pr-12 md:text-right">
-                  <h3 className="text-xl font-semibold mb-2">1. Desain & Pembuatan Pola</h3>
+                  <h3 className="text-xl font-semibold mb-2">1. Network Design & Planning</h3>
                   <p className="text-gray-600 dark:text-gray-400">
-                    Kami bekerja sama dengan tim desain Anda atau menyediakan layanan desain untuk menciptakan pola yang sesuai dengan visi Anda.
+                    We design and plan secure, scalable, and efficient network infrastructures that match your business vision.
                   </p>
                 </div>
                 <div className="hidden md:block absolute left-1/2 transform -translate-x-1/2 w-8 h-8 rounded-full bg-primary-500 border-4 border-white dark:border-gray-900"></div>
@@ -74,9 +74,9 @@ const Services: React.FC = () => {
                 <div className="md:w-1/2 md:pr-12 md:text-right"></div>
                 <div className="hidden md:block absolute left-1/2 transform -translate-x-1/2 w-8 h-8 rounded-full bg-primary-500 border-4 border-white dark:border-gray-900"></div>
                 <div className="md:w-1/2 md:pl-12 mt-4 md:mt-0">
-                  <h3 className="text-xl font-semibold mb-2">2. Pembuatan Sampel & Prototipe</h3>
+                  <h3 className="text-xl font-semibold mb-2">2. Backup & Data Protection</h3>
                   <p className="text-gray-600 dark:text-gray-400">
-                    Kami membuat sampel sebagai bahan persetujuan sebelum produksi massal, memastikan spesifikasi terpenuhi.
+                    We implement reliable backup and disaster recovery solutions to keep your business data safe.
                   </p>
                 </div>
               </motion.div>
@@ -89,9 +89,9 @@ const Services: React.FC = () => {
                 className="md:flex items-center"
               >
                 <div className="md:w-1/2 md:pr-12 md:text-right">
-                  <h3 className="text-xl font-semibold mb-2">3. Pengadaan & Pemotongan Kain</h3>
+                  <h3 className="text-xl font-semibold mb-2">3. Hardware & Infrastructure Setup</h3>
                   <p className="text-gray-600 dark:text-gray-400">
-                    Kami menggunakan kain berkualitas tinggi dan memotongnya secara presisi sesuai pola yang telah disetujui.
+                    From servers to structured cabling, we ensure high-quality installation for stable performance.
                   </p>
                 </div>
                 <div className="hidden md:block absolute left-1/2 transform -translate-x-1/2 w-8 h-8 rounded-full bg-primary-500 border-4 border-white dark:border-gray-900"></div>
@@ -108,9 +108,9 @@ const Services: React.FC = () => {
                 <div className="md:w-1/2 md:pr-12 md:text-right"></div>
                 <div className="hidden md:block absolute left-1/2 transform -translate-x-1/2 w-8 h-8 rounded-full bg-primary-500 border-4 border-white dark:border-gray-900"></div>
                 <div className="md:w-1/2 md:pl-12 mt-4 md:mt-0">
-                  <h3 className="text-xl font-semibold mb-2">4. Penjahitan & Perakitan</h3>
+                  <h3 className="text-xl font-semibold mb-2">4. Software & ERP Solutions</h3>
                   <p className="text-gray-600 dark:text-gray-400">
-                    Tim penjahit kami merakit pakaian dengan ketelitian dan perhatian terhadap detail.
+                    We develop and deploy administrative, financial, and custom software systems for better management.
                   </p>
                 </div>
               </motion.div>
@@ -123,9 +123,9 @@ const Services: React.FC = () => {
                 className="md:flex items-center"
               >
                 <div className="md:w-1/2 md:pr-12 md:text-right">
-                  <h3 className="text-xl font-semibold mb-2">5. Kontrol Kualitas</h3>
+                  <h3 className="text-xl font-semibold mb-2">5. Data Center & Network Optimization</h3>
                   <p className="text-gray-600 dark:text-gray-400">
-                    Setiap produk melewati pemeriksaan kualitas berlapis untuk memastikan standar tinggi kami terpenuhi.
+                    We build, upgrade, and optimize data centers and networks for maximum efficiency and reliability .
                   </p>
                 </div>
                 <div className="hidden md:block absolute left-1/2 transform -translate-x-1/2 w-8 h-8 rounded-full bg-primary-500 border-4 border-white dark:border-gray-900"></div>
@@ -142,9 +142,9 @@ const Services: React.FC = () => {
                 <div className="md:w-1/2 md:pr-12 md:text-right"></div>
                 <div className="hidden md:block absolute left-1/2 transform -translate-x-1/2 w-8 h-8 rounded-full bg-primary-500 border-4 border-white dark:border-gray-900"></div>
                 <div className="md:w-1/2 md:pl-12 mt-4 md:mt-0">
-                  <h3 className="text-xl font-semibold mb-2">6. Pengemasan & Pengiriman</h3>
+                  <h3 className="text-xl font-semibold mb-2">Surveillance & Security Systems</h3>
                   <p className="text-gray-600 dark:text-gray-400">
-                    Produk yang telah selesai dikemas dengan aman dan didistribusikan dengan pengaturan logistik yang efisien.
+                    We provide CCTV installation and monitoring solutions to secure your facilities.
                   </p>
                 </div>
               </motion.div>

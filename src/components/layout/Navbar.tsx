@@ -63,7 +63,7 @@ const Navbar: React.FC = () => {
         >
           <Shirt size={28} />
           <span className="font-heading font-bold text-xl hidden sm:block">
-            PT Doori Lestari
+            Tech Shield
           </span>
         </Link>
 
@@ -118,7 +118,7 @@ const Navbar: React.FC = () => {
               onClick={closeMenu}
             >
               <Shirt size={28} />
-              <span className="font-heading font-bold text-xl">PT Doori Lestari</span>
+              <span className="font-heading font-bold text-xl">Tech Shield</span>
             </Link>
             <button
               onClick={closeMenu}

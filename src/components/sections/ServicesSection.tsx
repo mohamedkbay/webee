@@ -10,23 +10,23 @@ const ServicesSection: React.FC = () => {
   const services = [
     {
       icon: <Palette size={32} className="text-primary-600 dark:text-primary-400" />,
-      title: 'Desain & Pengembangan Garmen',
-      description: 'Layanan desain profesional dan pengembangan pola untuk mewujudkan konsep Anda menjadi produk nyata.'
+      title: 'Network Design & Planning',
+      description: 'We design and plan secure, scalable, and efficient network infrastructures that match your business vision.'
     },
     {
       icon: <Box size={32} className="text-primary-600 dark:text-primary-400" />,
-      title: ' Pengadaan Kain',
-      description: 'Akses ke kain dan bahan premium dari pemasok terpercaya, lokal maupun internasional.'
+      title: ' Backup & Data Protection',
+      description: 'We implement reliable backup and disaster recovery solutions to keep your business data safe.س'
     },
     {
       icon: <Shirt size={32} className="text-primary-600 dark:text-primary-400" />,
-      title: 'Produksi Garmen',
-      description: 'Produksi penuh mulai dari pembuatan pola hingga pembuatan massal kaos, celana, hoodie, dan jaket.'
+      title: 'Hardware & Infrastructure Setup',
+      description: 'From servers to structured cabling, we ensure high-quality installation for stable performance.'
     },
     {
       icon: <Scissors size={32} className="text-primary-600 dark:text-primary-400" />,
-      title: 'Kancing & Finishing',
-      description: 'Pemasangan kancing yang presisi, bordir, sablon, dan detail akhir untuk menyempurnakan setiap produk.'
+      title: 'Software & ERP Solutions',
+      description: 'We develop and deploy administrative, financial, and custom software systems for better management.'
     },
     {
       icon: <CheckCircle size={32} className="text-primary-600 dark:text-primary-400" />,
@@ -35,43 +35,14 @@ const ServicesSection: React.FC = () => {
     },
     {
       icon: <Ship size={32} className="text-primary-600 dark:text-primary-400" />,
-      title: ' Logistik & Rantai Pasok',
-      description: 'Layanan ekspor lengkap termasuk dokumentasi, pengemasan, dan pengiriman ke seluruh dunia.'
+      title: 'Data Center & Network Optimization',
+      description: 'We build, upgrade, and optimize data centers and networks for maximum efficiency and reliability.'
     }
   ];
 
   return (
     <section className="section bg-gray-50 dark:bg-gray-800">
-      <div className="container-custom">
-        <SectionTitle
-          title="Layanan Kami"
-          subtitle="Kami menyediakan layanan manufaktur garmen lengkap dari desain hingga pengiriman."
-        />
 
-        <motion.div
-          ref={ref}
-          initial="hidden"
-          animate={controls}
-          variants={variants}
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
-        >
-          {services.map((service, index) => (
-            <motion.div
-              key={index}
-              variants={childVariants}
-              className="bg-white dark:bg-gray-900 p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300"
-            >
-              <div className="flex flex-col md:flex-row items-start md:items-center mb-4">
-                <div className="mb-4 md:mb-0 md:mr-4">
-                  {service.icon}
-                </div>
-                <h3 className="text-xl font-semibold">{service.title}</h3>
-              </div>
-              <p className="text-gray-600 dark:text-gray-400">{service.description}</p>
-            </motion.div>
-          ))}
-        </motion.div>
-      </div>
     </section>
   );
 };

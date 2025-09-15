@@ -24,7 +24,7 @@ const ContactSection: React.FC = () => {
   
   const onSubmit = async (data: FormData) => {
     try {
-      const response = await fetch('https://formspree.io/f/mblovwal', {
+      const response = await fetch('info@techshield.ly', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -57,8 +57,8 @@ const ContactSection: React.FC = () => {
           variants={animation.variants}
         >
           <SectionTitle
-            title="Ayo Berkolaborasi"
-            subtitle="Hubungi kami untuk berdiskusi tentang bagaimana kami dapat mewujudkan ide busana Anda."
+            title="Work With Us"
+            subtitle="Reach out and let’s explore how we can turn your vision into reality."
           />
         </motion.div>
 
@@ -166,7 +166,7 @@ const ContactSection: React.FC = () => {
                 <li className="flex items-start">
                   <MapPin className="text-primary-600 dark:text-primary-400 mt-1 flex-shrink-0 mr-3" size={20} />
                   <span className="text-gray-700 dark:text-gray-300">
-                    Jl. Intan I Kampung Curug, Tulang Kuning, Gunung Sindur Kabupaten Bogor, Jawa Barat, 16340 Indonesia 
+                    Zawiyat al Dahmani St, Tripoli, Libya 
                   </span>
                 </li>
                 <li className="flex items-center">
@@ -175,7 +175,7 @@ const ContactSection: React.FC = () => {
                     href="mailto:anjasprimary@gmail.com"
                     className="text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
                   >
-                    info@doorilestarigarment.com
+                    info@techshield.ly
                   </a>
                 </li>
                 <li className="flex items-center">
@@ -184,7 +184,7 @@ const ContactSection: React.FC = () => {
                     href="tel:+6285777222199"
                     className="text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
                   >
-                    +6285777222199
+                    +218 92 1255124
                   </a>
                 </li>
               </ul>
@@ -200,7 +200,7 @@ const ContactSection: React.FC = () => {
                   <span className="text-gray-700 dark:text-gray-300">7:30 AM - 17:00 PM</span>
                 </li>
                 <li className="flex justify-between">
-                  <span className="text-gray-600 dark:text-gray-400">Saturday</span>
+                  <span className="text-gray-600 dark:text-gray-400">Friday</span>
                   <span className="text-gray-700 dark:text-gray-300">7:30 AM - 16:00 PM</span>
                 </li>
                 <li className="flex justify-between">
@@ -219,7 +219,7 @@ const ContactSection: React.FC = () => {
                 allowFullScreen={false} 
                 loading="lazy" 
                 referrerPolicy="no-referrer-when-downgrade"
-                title="PT Doori Lestari Garment Location"
+                title="Tech Shield Location"
               ></iframe>
             </div>
           </motion.div>

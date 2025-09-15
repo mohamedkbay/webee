@@ -11,14 +11,13 @@ const Footer: React.FC = () => {
           <div>
             <div className="flex items-center space-x-2 mb-4">
               <Shirt className="text-primary-600 dark:text-primary-400" size={24} />
-              <h3 className="text-xl font-heading font-semibold">PT Doori Lestari</h3>
+              <h3 className="text-xl font-heading font-semibold">Tech Shield</h3>
             </div>
             <p className="text-gray-600 dark:text-gray-400 mb-4">
-              Produsen Garmen Indonesia dengan Standar Global. Memproduksi pakaian mode berkualitas tinggi yang siap diekspor ke seluruh dunia.
-            </p>
+Tech Shield is your trusted partner for IT support and technology services. We work side by side with you to keep your systems running smoothly, your networks secure, and your team supported.            </p>
             <div className="flex space-x-4 mb-4">
               <a
-                href="https://instagram.com/anjasmalik_"
+                href="https://instagram.com/techshield.ly"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-600 hover:text-primary-600 dark:text-gray-400 dark:hover:text-primary-400 transition-colors"
@@ -27,7 +26,7 @@ const Footer: React.FC = () => {
                 <Instagram size={20} />
               </a>
               <a
-                href="https://linkedin.com/"
+                href="https://linkedin.com/company/tech-shield"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-600 hover:text-primary-600 dark:text-gray-400 dark:hover:text-primary-400 transition-colors"
@@ -106,11 +105,11 @@ const Footer: React.FC = () => {
           <div>
             <h4 className="text-lg font-heading font-semibold mb-4">Services</h4>
             <ul className="space-y-2">
-              <li className="text-gray-600 dark:text-gray-400">Garment Manufacturing</li>
-              <li className="text-gray-600 dark:text-gray-400">Button Attachment & Finishing</li>
-              <li className="text-gray-600 dark:text-gray-400">Quality Control</li>
+              <li className="text-gray-600 dark:text-gray-400">IT Solutions</li>
+              <li className="text-gray-600 dark:text-gray-400">Network Services</li>
+              <li className="text-gray-600 dark:text-gray-400">Digital Transformation</li>
               <li className="text-gray-600 dark:text-gray-400">Custom Apparel Production</li>
-              <li className="text-gray-600 dark:text-gray-400">Export Handling</li>
+              <li className="text-gray-600 dark:text-gray-400">Programming Solutions</li>
             </ul>
           </div>
 
@@ -121,7 +120,7 @@ const Footer: React.FC = () => {
               <li className="flex items-start space-x-3">
                 <MapPin className="text-primary-600 dark:text-primary-400 mt-1 flex-shrink-0" size={18} />
                 <span className="text-gray-600 dark:text-gray-400">
-                  Jl. Intan I Kampung Curug, Tulang Kuning, Gunung Sindur Kabupaten Bogor, Jawa Barat, 16340 Indonesia
+                  Zawiyat al Dahmani St, Tripoli
                 </span>
               </li>
               <li className="flex items-center space-x-3">
@@ -130,16 +129,16 @@ const Footer: React.FC = () => {
                   href="mailto:anjasprimary@gmail.com"
                   className="text-gray-600 hover:text-primary-600 dark:text-gray-400 dark:hover:text-primary-400 transition-colors"
                 >
-                  info@doorilestarigarment.com
+                  info@techshield.ly
                 </a>
               </li>
               <li className="flex items-center space-x-3">
                 <Phone className="text-primary-600 dark:text-primary-400 flex-shrink-0" size={18} />
                 <a
-                  href="tel:+6285777222199"
+                  href="tel:+218921255124"
                   className="text-gray-600 hover:text-primary-600 dark:text-gray-400 dark:hover:text-primary-400 transition-colors"
                 >
-                  +6285777222199
+                  +218 92 1255124
                 </a>
               </li>
             </ul>
@@ -148,7 +147,7 @@ const Footer: React.FC = () => {
 
         <div className="border-t border-gray-200 dark:border-gray-700 mt-10 pt-6 text-center">
           <p className="text-gray-600 dark:text-gray-400 text-sm">
-            &copy; {new Date().getFullYear()} PT Doori Lestari Garment. All rights reserved.
+            &copy; {new Date().getFullYear()} Tech Shield. All rights reserved 2025.
           </p>
         </div>
       </div>

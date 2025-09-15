@@ -8,32 +8,32 @@ const ProductsSection: React.FC = () => {
 
   const products = [
     {
-      image: 'https://raw.githubusercontent.com/malik027/doorilestarigarment/refs/heads/main/images/image04.jpg?auto=compress&cs=tinysrgb&w=1600',
+      image: 'https://burst.shopifycdn.com/photos/tech-meeting-flatlay.jpg?width=925&format=pjpg&exif=0&iptc=0',
       title: 'Proses Produksi Awal',
       category: 'Shirts'
     },
     {
-      image: 'https://raw.githubusercontent.com/malik027/doorilestarigarment/refs/heads/main/images/image06.jpg?auto=compress&cs=tinysrgb&w=1600',
+      image: 'https://burst.shopifycdn.com/photos/network-server.jpg?width=925&format=pjpg&exif=0&iptc=0',
       title: 'Pemeriksaan & Penyortiran',
       category: 'Shirts'
     },
     {
-      image: 'https://raw.githubusercontent.com/malik027/doorilestarigarment/refs/heads/main/images/image08.jpg?auto=compress&cs=tinysrgb&w=1600',
+      image: 'https://burst.shopifycdn.com/photos/woman-hands-tech-developer-laptop.jpg?width=925&format=pjpg&exif=0&iptc=0',
       title: 'Penyusunan Produk',
       category: 'Shirts'
     },
     {
-      image: 'https://raw.githubusercontent.com/malik027/doorilestarigarment/refs/heads/main/images/image02.jpg?auto=compress&cs=tinysrgb&w=1600',
+      image: 'https://burst.shopifycdn.com/photos/software-programming-plan.jpg?width=373&format=pjpg&exif=0&iptc=0',
       title: 'Pengemasan Produk',
       category: 'Shirts'
     },
     {
-      image: 'https://raw.githubusercontent.com/malik027/doorilestarigarment/refs/heads/main/images/image14.jpg?auto=compress&cs=tinysrgb&w=1600',
+      image: 'https://burst.shopifycdn.com/photos/business-owner-working-on-online-store.jpg?width=373&format=pjpg&exif=0&iptc=0',
       title: 'Siap Kirin Ke Klien',
       category: 'Shirts'
     },
     {
-      image: 'https://raw.githubusercontent.com/malik027/doorilestarigarment/refs/heads/main/images/image12.jpg?auto=compress&cs=tinysrgb&w=1600',
+      image: 'https://burst.shopifycdn.com/photos/office-computer-screen.jpg?width=373&format=pjpg&exif=0&iptc=0',
       title: 'Produk Jadi Celana',
       category: 'Jeans'
     }
@@ -43,8 +43,7 @@ const ProductsSection: React.FC = () => {
     <section className="section bg-white dark:bg-gray-900">
       <div className="container-custom">
         <SectionTitle
-          title="Lini Pakaian Kami"
-          subtitle="Jelajahi berbagai contoh pakaian yang telah kami produksi untuk klien kami di seluruh dunia."
+        
         />
 
         <motion.div

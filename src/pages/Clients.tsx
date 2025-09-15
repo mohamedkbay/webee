@@ -10,27 +10,27 @@ const Clients: React.FC = () => {
     window.scrollTo(0, 0);
     
     // Update document title
-    document.title = "Clients | PT Doori Lestari Garment";
+    document.title = "Clients | tech Shield- درع التقنية";
   }, []);
 
   const testimonials = [
     {
-      name: "James Wilson",
-      company: "Fashion Forward Inc.",
-      quote: "Working with PT Doori Lestari has been a game-changer for our brand. Their attention to detail and commitment to quality has helped us deliver premium products to our customers consistently.",
-      location: "United States"
+      name: "Mohamed ALhijaji",
+      company: "Alhijaji Workshop.",
+      quote: "Workshop for Amarican Cars That we provied it with warchapro.",
+      location: "libya janzour"
     },
     {
-      name: "Sophie Laurent",
-      company: "Style Moderne",
+      name: "Ahmed Alnajar",
+      company: "albab alateek",
       quote: "The team at PT Doori Lestari understands our aesthetic perfectly. Their craftsmanship and ability to translate our designs into high-quality garments has been invaluable to our growth.",
-      location: "France"
+      location: "Libya alsabha"
     },
     {
-      name: "Hiroshi Tanaka",
-      company: "Urban Threads Co.",
-      quote: "We've been partnering with PT Doori Lestari for over 5 years, and they've consistently exceeded our expectations. Their quality control and on-time delivery are exceptional.",
-      location: "Japan"
+      name: "Mohamed Salah",
+      company: "Alwatnya For Importing Of Marine Equipments",
+      quote: "Alwatnya specializes in importing high-quality marine equipment and is the official distributor of Mercury engines, serving the boating and maritime industry with reliable products and trusted expertise.",
+      location: "Libya Tajoura"
     }
   ];
 
@@ -45,8 +45,8 @@ const Clients: React.FC = () => {
             transition={{ duration: 0.5 }}
           >
             <SectionTitle
-              title="Klien Global Kami"
-              subtitle="Kami bangga menjadi mitra bagi brand-brand visioner dari berbagai negara. Di PT Doori Lestari Garment, kami percaya inovasi dan kolaborasi adalah kunci untuk tetap unggul di industri fashion yang terus berkembang. Dengan bekerja sama dengan brand yang mengutamakan keberlanjutan, teknologi, dan praktik etis, kami mewujudkan ide-ide kreatif menjadi produk pakaian berkualitas tinggi yang berdampak secara global. Kemitraan kami mencerminkan visi bersama untuk fashion yang bertanggung jawab dan pertumbuhan berkelanjutan."
+              title="Our Global Clients"
+              subtitle="We are proud to be a trusted partner for visionary companies across the globe. At Tech Shield, we believe innovation and collaboration are the keys to staying ahead in the ever-evolving world of technology. By providing programming solutions, network services, and reliable IT infrastructure, we help businesses build secure, efficient, and sustainable systems. Our partnerships reflect a shared vision of responsible technology and sustainable digital growth."
               className="mb-0"
             />
           </motion.div>
@@ -60,8 +60,8 @@ const Clients: React.FC = () => {
       <section className="section bg-white dark:bg-gray-900">
         <div className="container-custom">
           <SectionTitle
-            title="Testimoni Klien"
-            subtitle="Dengarkan apa yang mitra kami katakan tentang bekerja dengan kami."
+            title="Some of the Services We Provide to Our Clients"
+            subtitle="We offer programming solutions, network services, and IT infrastructure to help businesses run securely and efficiently."
           />
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -94,74 +94,7 @@ const Clients: React.FC = () => {
       </section>
 
       {/* Case Studies */}
-<section className="section bg-gray-50 dark:bg-gray-800">
-  <div className="container-custom">
-    <SectionTitle
-      title="Kisah Sukses"
-      subtitle="Studi kasus yang memamerkan proyek kolaboratif kami dengan merek global."
-    />
 
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-      {/* Card 1 */}
-      <motion.div
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5, delay: 0.1 }}
-        className="bg-white dark:bg-gray-900 rounded-lg overflow-hidden shadow-sm"
-      >
-        <div className="h-64">
-          <img
-            src="https://cdn.pixabay.com/photo/2016/07/17/20/19/t-shirt-1524677_1280.jpg?auto=compress&cs=tinysrgb&w=1600"
-            alt="Client success story 1"
-            className="w-full h-full object-cover"
-          />
-        </div>
-        <div className="border-t border-gray-300 dark:border-gray-600 mx-6"></div>
-        <div className="p-6">
-          <h3 className="text-xl font-semibold mb-2">UNIQLO – Premium Cotton Shirt Collection</h3>
-          <p className="text-gray-600 dark:text-gray-400 mb-4">
-            PT Doori Lestari Garment dipercaya untuk memproduksi koleksi kemeja katun premium UNIQLO untuk pasar Asia Tenggara. Proyek ini membutuhkan kualitas jahitan yang tinggi, standar internasional, dan efisiensi waktu produksi yang tinggi.
-          </p>
-          <div className="flex flex-wrap gap-2">
-            <span className="bg-primary-100 dark:bg-primary-900 text-primary-800 dark:text-primary-300 text-xs px-2 py-1 rounded">UNIQLO </span>
-            <span className="bg-primary-100 dark:bg-primary-900 text-primary-800 dark:text-primary-300 text-xs px-2 py-1 rounded">PremiumShirt </span>
-            <span className="bg-primary-100 dark:bg-primary-900 text-primary-800 dark:text-primary-300 text-xs px-2 py-1 rounded">GarmentManufacturing </span>
-            <span className="bg-primary-100 dark:bg-primary-900 text-primary-800 dark:text-primary-300 text-xs px-2 py-1 rounded">GlobalPartner </span>
-          </div>
-        </div>
-      </motion.div>
-
-      {/* Card 2 */}
-      <motion.div
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5, delay: 0.2 }}
-        className="bg-white dark:bg-gray-900 rounded-lg overflow-hidden shadow-sm"
-      >
-        <div className="h-64">
-          <img
-            src="https://cdn.pixabay.com/photo/2016/11/22/19/08/hangers-1850082_1280.jpg?auto=compress&cs=tinysrgb&w=1600"
-            alt="Client success story 2"
-            className="w-full h-full object-cover"
-          />
-        </div>
-        <div className="border-t border-gray-300 dark:border-gray-600 mx-6"></div>
-        <div className="p-6">
-          <h3 className="text-xl font-semibold mb-2">H&M – Sustainable Fashion Line</h3>
-          <p className="text-gray-600 dark:text-gray-400 mb-4">
-            PT Doori Lestari Garment tengah menggarap proyek busana ramah lingkungan untuk H&M, menggunakan bahan daur ulang dan pewarna alami. Kolaborasi ini merupakan bagian dari komitmen H&M terhadap produksi mode berkelanjutan.
-          </p>
-          <div className="flex flex-wrap gap-2">
-            <span className="bg-primary-100 dark:bg-primary-900 text-primary-800 dark:text-primary-300 text-xs px-2 py-1 rounded">HandM </span>
-            <span className="bg-primary-100 dark:bg-primary-900 text-primary-800 dark:text-primary-300 text-xs px-2 py-1 rounded">SustainableFashion </span>
-            <span className="bg-primary-100 dark:bg-primary-900 text-primary-800 dark:text-primary-300 text-xs px-2 py-1 rounded">EcoGarment </span>
-            <span className="bg-primary-100 dark:bg-primary-900 text-primary-800 dark:text-primary-300 text-xs px-2 py-1 rounded">GreenProduction </span>
-          </div>
-        </div>
-      </motion.div>
-    </div>
-  </div>
-</section>
     </div>
   );
 };

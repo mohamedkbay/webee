@@ -11,18 +11,18 @@ const AboutSection: React.FC = () => {
   const values = [
     { 
       icon: <Target size={28} className="text-primary-600 dark:text-primary-400" />,
-      title: 'Visi',
-      description: 'Menjadi mitra terpercaya dalam industri garmen yang mampu memberikan solusi produksi berkualitas tinggi, tepat waktu, dan efisien bagi brand lokal maupun internasional.'
+      title: 'Professionalism',
+      description: 'Paying attention to detail and ensuring top-quality results in every project.'
     },
     { 
       icon: <EyeIcon size={28} className="text-primary-600 dark:text-primary-400" />,
-      title: 'Misi',
-      description: 'Memberikan solusi produksi garmen yang profesional dan fleksibel kepada brand atau perusahaan retail, dengan mengutamakan ketepatan waktu, mutu produk, dan kepuasan mitra kerja dalam setiap proses kerja sama.'
+      title: 'Integrity & Trust',
+      description: 'Working with transparency and commitment to build long-term relationships. Providing professional and flexible garment production solutions to brands or retail companies, prioritizing timeliness, product quality, and partner satisfaction in every collaboration process.'
     },
     { 
       icon: <Heart size={28} className="text-primary-600 dark:text-primary-400" />,
-      title: 'Values',
-      description: 'Kami menjunjung tinggi integritas, kualitas, dan ketepatan waktu dalam setiap proses kerja, serta berkomitmen membangun kemitraan jangka panjang yang saling menguntungkan.'
+      title: 'Customer-Centric',
+      description: 'Placing our clients’ needs at the center of our services and listening carefully to their requirements.'
     }
   ];
 
@@ -36,8 +36,8 @@ const AboutSection: React.FC = () => {
           variants={animation.variants}
         >
           <SectionTitle
-            title="Mewujudkan Fashion dengan Dedikasi"
-            subtitle="PT Doori Lestari Garment adalah produsen garmen terpercaya yang berbasis di Indonesia, menyediakan pakaian berkualitas tinggi untuk kebutuhan ekspor global."
+            title="Businesses with Technology Solutions"
+            subtitle="Tech Shield is a trusted IT partner that provides reliable support, software solutions, networking, and professional training. We help businesses and individuals harness technology effectively to grow, innovate, and stay ahead in a digital world."
           />
         </motion.div>
 
@@ -49,7 +49,7 @@ const AboutSection: React.FC = () => {
             variants={animation.variants}
             className="text-gray-700 dark:text-gray-300 text-center"
           >
-            Dengan konsistensi dan perhatian pada detail, kami menjembatani keterampilan tangan lokal Indonesia dengan tren mode dunia. Fasilitas modern dan tenaga kerja terampil kami memastikan setiap produk memenuhi standar kualitas internasional.
+            Our dedication to quality, security, and continuous learning ensures every solution we deliver meets the unique needs of our clients.
           </motion.p>
         </div>
 
