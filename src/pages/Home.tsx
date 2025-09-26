@@ -12,7 +12,7 @@ const Home: React.FC = () => {
     window.scrollTo(0, 0);
     
     // Update document title
-    document.title = "PT Doori Lestari Garment | Indonesian Garment Manufacturer";
+    document.title = "Tech Shield- درع التقنية";
   }, []);
 
   return (

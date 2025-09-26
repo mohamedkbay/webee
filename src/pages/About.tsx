@@ -9,26 +9,26 @@ const About: React.FC = () => {
     document.title = "About Us | Tech Shield- درع التقنية";
   }, []);
 
-  const teamMembers = [
-    {
-      name: "Kwun Hun Ik",
-      position: "Chief Executive Officer",
-      image: "https://raw.githubusercontent.com/malik027/doorilestarigarment/refs/heads/main/images/kwun%20hun%20lk.jpeg?auto=compress&cs=tinysrgb&w=1600",
-      description: "With over 20 years of experience in the garment industry, Kwun leads our company's strategic vision and global expansion."
-    },
-    {
-      name: "Joon Tae Kim",
-      position: "Head of Production",
-      image: "https://raw.githubusercontent.com/malik027/doorilestarigarment/refs/heads/main/images/joon%20tae%20kim.jpeg?auto=compress&cs=tinysrgb&w=1600",
-      description: "Joon oversees all manufacturing operations, ensuring the highest quality standards across our production lines."
-    },
-    {
-      name: "Linda Sanjaya",
-      position: "Marketing Director",
-      image: "https://raw.githubusercontent.com/malik027/doorilestarigarment/refs/heads/main/images/Linda.jpeg?auto=compress&cs=tinysrgb&w=1600",
-      description: "Linda drives our global marketing strategy and client relationships, expanding our presence in international markets."
-    }
-  ];
+  // const teamMembers = [
+  //   {
+  //     name: "Kwun Hun Ik",
+  //     position: "Chief Executive Officer",
+  //     image: "https://raw.githubusercontent.com/malik027/doorilestarigarment/refs/heads/main/images/kwun%20hun%20lk.jpeg?auto=compress&cs=tinysrgb&w=1600",
+  //     description: "With over 20 years of experience in the garment industry, Kwun leads our company's strategic vision and global expansion."
+  //   },
+  //   {
+  //     name: "Joon Tae Kim",
+  //     position: "Head of Production",
+  //     image: "https://raw.githubusercontent.com/malik027/doorilestarigarment/refs/heads/main/images/joon%20tae%20kim.jpeg?auto=compress&cs=tinysrgb&w=1600",
+  //     description: "Joon oversees all manufacturing operations, ensuring the highest quality standards across our production lines."
+  //   },
+  //   {
+  //     name: "Linda Sanjaya",
+  //     position: "Marketing Director",
+  //     image: "https://raw.githubusercontent.com/malik027/doorilestarigarment/refs/heads/main/images/Linda.jpeg?auto=compress&cs=tinysrgb&w=1600",
+  //     description: "Linda drives our global marketing strategy and client relationships, expanding our presence in international markets."
+  //   }
+  // ];
 
   return (
     <div className="pt-16 mt-10">
