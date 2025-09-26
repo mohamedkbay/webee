@@ -26,7 +26,7 @@ Tech Shield is your trusted partner for IT support and technology services. We w
                 <Instagram size={20} />
               </a>
               <a
-                href="https://linkedin.com/company/tech-shield"
+                href="https://www.linkedin.com/company/techshield-ly/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-600 hover:text-primary-600 dark:text-gray-400 dark:hover:text-primary-400 transition-colors"
@@ -35,7 +35,7 @@ Tech Shield is your trusted partner for IT support and technology services. We w
                 <Linkedin size={20} />
               </a>
               <a
-                href="https://wa.me/6285777222199"
+                href="https://wa.me/message/PCBJSRPMDFEZO1"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-600 hover:text-primary-600 dark:text-gray-400 dark:hover:text-primary-400 transition-colors"

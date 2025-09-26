@@ -117,7 +117,7 @@ const Navbar: React.FC = () => {
               className="flex items-center space-x-2 text-primary-600 dark:text-primary-400"
               onClick={closeMenu}
             >
-              <Shirt size={28} />
+              {/* <Shirt size={28} /> */}
               <span className="font-heading font-bold text-xl">Tech Shield</span>
             </Link>
             <button
