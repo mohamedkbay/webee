@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
           {/* Company Info */}
           <div>
             <div className="flex items-center space-x-2 mb-4">
-              {/* <Shirt className="text-primary-600 dark:text-primary-400" size={24} /> */}
+              {<Shirt className="text-primary-600 dark:text-primary-400" size={24} />}
               <h3 className="text-xl font-heading font-semibold">Tech Shield</h3>
             </div>
             <p className="text-gray-600 dark:text-gray-400 mb-4">
